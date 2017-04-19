@@ -11,10 +11,11 @@ import java.util.List;
  */
 @Repository
 public class UserDAO {
-    private List<User> users = Arrays.asList(new User ("admin","admin"),
+    private List<User> users = Arrays.asList(
+            new User ("admin","admin"),
             new User ("user1","user1"));
 
-    public List<User> getUsers() {
+    public List<User> getAllUsers() {
         return users;
     }
 }

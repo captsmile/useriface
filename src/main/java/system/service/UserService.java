@@ -16,6 +16,6 @@ public class UserService {
     private UserDAO userDao;
 
     public List getAllUsers(){
-        return userDao.getUsers();
+        return userDao.getAllUsers();
     }
 }
